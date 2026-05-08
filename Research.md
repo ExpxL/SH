@@ -143,7 +143,7 @@ Trata-se de um serviço especializado em:
 | 📄 Emissão fiscal | ✅ | ✅ | ❌ |
 | 🌐 Integração HTTP/JSON | ✅ | ✅ | N/A |
 | 🧾 NFC-e | ✅ | ✅ | ❌ |
-| 🏙️ NFS-e multimunicipal | ✅ | ✅ | ❌ |
+| 🏙️ NFS-e multimunicipal | ✅ ampla cobertura | ✅ ampla cobertura | ❌ |
 | 🔔 Webhooks | Parcial | ✅ | ❌ |
 | 🏷️ White Label | Não divulgado | ✅ | ❌ |
 | 🗂️ Armazenamento legal | ✅ | ✅ | ❌ |
@@ -174,7 +174,7 @@ Independentemente do fornecedor escolhido, existem limitações inerentes ao eco
 
 # 6. 🎏 Combinações Recomendadas
 
-## 💰 Cenário focado em previsibilidade financeira
+## 💰 Possível composição com foco em previsibilidade financeira
 
 ```text
 ACBr API
@@ -191,7 +191,7 @@ SAC Fiscal
 
 ---
 
-## ⚡ Cenário focado em escalabilidade operacional
+## ⚡ Possível composição com foco em escalabilidade operacional
 
 ```text
 PlugNotas
