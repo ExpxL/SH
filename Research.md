@@ -3,35 +3,7 @@
 
 ---
 
-# 1. Visão Geral
-
-O mercado fiscal brasileiro exige atualização constante, adaptação rápida às mudanças legislativas e alta disponibilidade operacional. Para software houses, isso significa lidar simultaneamente com:
-
-- emissão fiscal eletrônica;
-- integrações municipais e estaduais;
-- contingência operacional;
-- armazenamento legal de XMLs;
-- suporte tributário;
-- mudanças frequentes de schema e legislação.
-
-Este documento apresenta uma análise técnica comparativa entre:
-
-- **ACBr API**
-- **TecnoSpeed PlugNotas**
-- **SAC Fiscal**
-
-com foco em:
-
-- integração via API REST;
-- software houses PHP (mas aplicável a qualquer linguagem);
-- previsibilidade financeira;
-- escalabilidade;
-- suporte técnico e tributário;
-- operação SaaS moderna.
-
----
-
-# 2. ACBr API — API REST Oficial do Projeto ACBr
+# 1. ACBr API — API REST Oficial do Projeto ACBr
 
 A ACBr API é a plataforma SaaS REST oficial do ecossistema ACBr, criada para simplificar integrações fiscais sem depender da manutenção local tradicional dos componentes.
 
@@ -77,7 +49,7 @@ O principal diferencial da ACBr API é o modelo de cobrança baseado em contrato
 
 ---
 
-# 3. TecnoSpeed PlugNotas — API Fiscal SaaS
+# 2. TecnoSpeed PlugNotas — API Fiscal SaaS
 
 O PlugNotas é a plataforma fiscal SaaS da TecnoSpeed, focada em emissão fiscal em larga escala, contingência operacional e integração multimunicipal.
 
@@ -128,7 +100,7 @@ O PlugNotas é a plataforma fiscal SaaS da TecnoSpeed, focada em emissão fiscal
 
 ---
 
-# 4. SAC Fiscal — Consultoria e Arquitetura Tributária
+# 3. SAC Fiscal — Consultoria e Arquitetura Tributária
 
 O SAC Fiscal não é uma plataforma de emissão fiscal.
 
@@ -163,7 +135,7 @@ Trata-se de um serviço especializado em:
 
 ---
 
-# 5. Comparativo Consolidado
+# 4. Comparativo Consolidado
 
 | Critério | ACBr API | PlugNotas | SAC Fiscal |
 |---|:---:|:---:|:---:|
@@ -185,7 +157,7 @@ Trata-se de um serviço especializado em:
 
 ---
 
-# 6. Limitações Comuns de APIs Fiscais
+# 5. Limitações Comuns de APIs Fiscais
 
 Independentemente do fornecedor escolhido, existem limitações inerentes ao ecossistema fiscal brasileiro.
 
@@ -200,7 +172,7 @@ Independentemente do fornecedor escolhido, existem limitações inerentes ao eco
 
 ---
 
-# Combinações Recomendadas
+# 6. 🎏 Combinações Recomendadas
 
 ## Cenário focado em previsibilidade financeira
 
