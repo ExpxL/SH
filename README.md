@@ -24,7 +24,7 @@ API REST SaaS lançada pelo próprio Projeto ACBr, voltada a quem quer **fugir d
 | **Implementação** | Gratuita — ambiente sandbox/homologação disponível após cadastro |
 | **Plano de uso** | **Anual**, com limite definido no início do contrato |
 | **Modelo de cobrança** | Sem franquia mensal; sem crédito que vence; sem cobrança por CNPJ ou terminal |
-| **Preço público** | ⚠️ Não divulgado — a tabela de preços é enviada por e-mail após cadastro gratuito |
+| **Preço público** | O modelo comercial é baseado em créditos de utilização, podendo o consumo variar conforme tipo de operação fiscal executada. |
 | **Período de testes** | Sandbox disponível gratuitamente |
 
 > ⚠️ Para obter valores, acesse **acbr.api.br** e crie uma conta gratuita. A tabela de preços é enviada diretamente no e-mail.
