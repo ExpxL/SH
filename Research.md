@@ -309,13 +309,5 @@ Indicado para:
 
 ---
 
-# Fontes Consultadas
-
-- acbr.api.br
-- projetoacbr.com.br
-- plugnotas.com.br
-- tecnospeed.com.br
-- sacfiscal.com.br
-
 > Consultado em maio/2026.
 > Informações comerciais podem sofrer alterações sem aviso prévio.
