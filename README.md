@@ -23,21 +23,22 @@
 O sistema adota uma arquitetura **monolítica modular** (Modular Monolith), organizada por domínios de negócio dentro do Laravel. Essa abordagem equilibra a simplicidade operacional de um monólito com a separação de responsabilidades próxima de microsserviços.
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                        API RESTful (Laravel 13)                                      │
-│                                                                                      │   
-│   app/Modules/Fiscal  │  app/Modules/Financeiro  │  ...                             │
-│   ┌────────────────────────────────────────────────────────┐        │
-│   │  Controller → FormRequest → Service → Repository                     │        │
-│   │              ↓           ↓                                             │        │
-│   │           Events      Jobs/Queues                                      │        │
-│   └────────────────────────────────────────────────────────┘        │
-│                                                                                      │
-│   ┌──────────────────────────────────────────────────────┐           │
-│   │              Infraestrutura Transversal                              │          │
-│   │  Sanctum/Fortify │ Spatie │ Reverb │ ACBr PHP Wrapper               │          │
-│   └──────────────────────────────────────────────────────┘          │
-└──────────────────────────────────────────────────────────────────┘
++----------------------------------------------------------------------------------+
+|                           API RESTful (Laravel 13)                               |
+|                                                                                  |
+|  app/Modules/Fiscal  |  app/Modules/Financeiro  |  ...                           |
+|                                                                                  |
+|  +----------------------------------------------------------------------------+  |
+|  | Controller -> FormRequest -> Service -> Repository                         |  |
+|  |        |                     |                                             |  |
+|  |      Events              Jobs/Queues                                       |  |
+|  +----------------------------------------------------------------------------+  |
+|                                                                                  |
+|  +----------------------------------------------------------------------------+  |
+|  |                    Infraestrutura Transversal                              |  |
+|  | Sanctum/Fortify | Spatie | Reverb | ACBR PHP Wrapper                       |  |
+|  +----------------------------------------------------------------------------+  |
++----------------------------------------------------------------------------------+
           │                  │                  │
      PostgreSQL            Redis          ACBr Lib (DLL/SO)
                                        (NF-e, NFC-e, NFS-e,
